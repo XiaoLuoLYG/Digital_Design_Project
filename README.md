@@ -8,19 +8,20 @@ Description: AHB and AXI master
 
 
 ## Directory Structure
-|-- ahb_master.sv 				# AHB master source file
-|-- ahb.sv 						# AHB package definition file
-|-- axi_master.sv 				# AXI master source file
-|-- rtl.f 						# Filelist for vcs compilation
-|-- run.vcs.bat 				# Execute vcs compilation 
-|-- README.md 					# This file
-|-- testbench 					# Testbench folder
-    |-- axi4.hpp				# AXI4 header file
+```
+|-- ahb_master.sv 			# AHB master source file
+|-- ahb.sv 				# AHB package definition file
+|-- axi_master.sv 			# AXI master source file
+|-- rtl.f 				# Filelist for vcs compilation
+|-- run.vcs.bat 			# Execute vcs compilation 
+|-- README.md 				# This file
+|-- testbench 				# Testbench folder
+    |-- axi4.hpp			# AXI4 header file
     |-- axi4_mem.hpp 			# AXI4 memory header file
     |-- axi4_slave.hpp			# AXI4 slave header file
     |-- tb_ahb_master.cpp		# AHB testbench for read and write channel
     |-- tb_axi_master.cpp 		# AXI testbench for writing data to slave
-
+```
 ## Quick Start Guide
 1.Install verilator and gcc with correct version
 2.`make run`
