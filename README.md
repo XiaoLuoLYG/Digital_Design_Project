@@ -83,3 +83,5 @@ To see the waveform using verdi:
 
 This will automatically vcs compile the files listed in rtl.f 
 A vcs.compile.log will be generated for debugging purpose.(2 folders and a simv executable will also be generated)
+
+**For 亲爱的方方**
